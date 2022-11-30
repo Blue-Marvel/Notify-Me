@@ -23,7 +23,7 @@ class _NotifyMeState extends State<NotifyMe> {
           child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 30.0, vertical: 50),
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
+          // mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const IconButton(

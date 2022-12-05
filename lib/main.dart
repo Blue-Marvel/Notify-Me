@@ -31,25 +31,20 @@ class _NotifyMeState extends State<NotifyMe> {
                 icon: Icon(
                   Icons.close_outlined,
                   size: 60,
-                  color: Colors.white10,
+                  color: Colors.white30,
                 )),
             Container(
               height: 200,
               width: 350,
               decoration: const BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.blue,
                   image: DecorationImage(
                     image: AssetImage(
                         "assets/3d-casual-life-credit-card-and-chart-column.png"),
                     fit: BoxFit.contain,
                   )),
             ),
-            // Image.asset(
-            //   "assets/3d-casual-life-credit-card-and-chart-column.png",
-            //   height: 300,
-            //   width: 300,
-            // ),
-            //Text
+
             const SizedBox(
               height: 20,
             ),
